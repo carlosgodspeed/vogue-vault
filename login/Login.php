@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-style.css">
     <link re="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Document</title>
 </head>
@@ -20,26 +20,10 @@
 
             <div class="cabeçalho-link">
                 <li>
-                    <a href="index.php">Inicio</a>
-                </li>
-                <li>
-                    <a href="Routes/Novidades/Novidade.php">Novidades</a>
-                </li>
-                <li>
-                    <a href="Routes/Closet/Closet.php">Closet</a>
-                </li>
-                <li>
-                    <a href="Routes/Novidades/Novidade.php">Contato</a>
+                    <a href="index.php"> Retornar Inicio</a>
                 </li>
             </div><!--cabeçalho-link-->
             <!--icon-->
-            <a href="login/Login.php">
-                <div class="icon">
-                    <span>
-                        <ion-icon name="person-circle-outline"></ion-icon>
-                    </span>
-                </div>
-            </a>
 
             <div class="icon"><span><ion-icon name="bag-handle-outline"></ion-icon></span></div>
             <!--icon-->
