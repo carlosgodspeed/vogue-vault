@@ -29,7 +29,7 @@
                     <a href="Routes/Closet/Closet.php">Closet</a>
                 </li>
                 <li>
-                    <a href="Routes/Novidades/Novidade.php">Contato</a>
+                    <a href="Routes/Contato/Contato.php">Contato</a>
                 </li>
             </div><!--cabeçalho-link-->
             <!--icon-->

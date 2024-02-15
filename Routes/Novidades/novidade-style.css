@@ -10,7 +10,7 @@
 
 
 .background{
-    background-image: url(../img/vogue\ vault.png);
+    background-image: url(../../img/vogue\ vault.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -137,7 +137,7 @@ section h1{
 .cta{
     height: 60vh;
     width: 100%;
-    background: url(../img/black-friday.png);
+    background: url(../../img/black-friday.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -238,3 +238,4 @@ section h1{
     height: auto;
     background-color: #CBB488;
 }
+
