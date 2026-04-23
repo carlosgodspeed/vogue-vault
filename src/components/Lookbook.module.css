@@ -1,0 +1,215 @@
+.section {
+  background: #060504;
+  padding: 0 0 96px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.eyebrowRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 48px;
+}
+
+.goldLine {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #C9A84C;
+}
+
+.eyebrowText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  color: #C9A84C;
+}
+
+/* Looks Grid */
+.looksGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  margin-bottom: 80px;
+}
+
+.lookCard {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.lookCardTall .lookImgWrap {
+  height: 640px;
+}
+
+.lookImgWrap {
+  position: relative;
+  height: 520px;
+  overflow: hidden;
+  background: #0D0B09;
+}
+
+.lookImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.6s ease;
+  display: block;
+  filter: brightness(0.85);
+}
+
+.lookCard:hover .lookImg {
+  transform: scale(1.04);
+}
+
+.lookOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(6,5,4,0.88) 0%, transparent 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 24px;
+}
+
+.lookLabel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  color: rgba(201,168,76,0.7);
+  align-self: flex-start;
+}
+
+.lookMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lookName {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #F5F0E8;
+}
+
+.lookDesc {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #8A8278;
+}
+
+/* Pecas */
+.pecasSection {}
+
+.pecasGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3px;
+}
+
+.pecaCard {
+  cursor: pointer;
+}
+
+.pecaImgWrap {
+  position: relative;
+  height: 460px;
+  overflow: hidden;
+  background: #111;
+}
+
+.pecaImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.pecaCard:hover .pecaImg {
+  transform: scale(1.04);
+}
+
+.pecaTag {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: #C9A84C;
+  border: 1px solid #C9A84C;
+  padding: 4px 10px;
+  background: rgba(6,5,4,0.7);
+}
+
+.pecaBtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #C9A84C;
+  color: #060504;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  transform: translateY(100%);
+  transition: transform 0.35s ease;
+}
+
+.pecaCard:hover .pecaBtn {
+  transform: translateY(0);
+}
+
+.pecaInfo {
+  padding: 18px 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.pecaName {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #D8D0C4;
+}
+
+.pecaPrice {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #C9A84C;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 900px) {
+  .looksGrid,
+  .pecasGrid {
+    grid-template-columns: 1fr;
+  }
+  .lookCardTall .lookImgWrap {
+    height: 520px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+}

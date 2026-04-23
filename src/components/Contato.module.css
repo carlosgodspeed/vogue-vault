@@ -1,0 +1,225 @@
+.section {
+  background: #060504;
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.goldLine {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #C9A84C;
+}
+
+.eyebrowText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  color: #C9A84C;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
+  color: #F5F0E8;
+  line-height: 1.1;
+  margin: 0 0 24px;
+}
+
+.title em {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.desc {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-style: italic;
+  color: #6A6258;
+  line-height: 1.7;
+  margin: 0 0 40px;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 40px;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 0;
+  border-bottom: 1px solid #131108;
+}
+
+.infoLabel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  color: #4A4540;
+}
+
+.infoValue {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  color: #B0A898;
+}
+
+.socialRow {
+  display: flex;
+  gap: 28px;
+}
+
+.socialLink {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: #4A4540;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+
+.socialLink:hover {
+  color: #C9A84C;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #5A5248;
+}
+
+.input,
+.textarea {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  color: #D8D0C4;
+  background: #0D0B09;
+  border: 1px solid #1A1714;
+  padding: 14px 18px;
+  outline: none;
+  transition: border-color 0.3s;
+  resize: none;
+  width: 100%;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #3A3530;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: rgba(201,168,76,0.4);
+}
+
+.btnSubmit {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #060504;
+  background: #C9A84C;
+  border: none;
+  padding: 18px 40px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  align-self: flex-start;
+}
+
+.btnSubmit:hover {
+  background: #E5C76A;
+  transform: translateY(-2px);
+}
+
+/* Success */
+.successMsg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  gap: 16px;
+  text-align: center;
+  padding: 48px;
+  border: 1px solid rgba(201,168,76,0.2);
+}
+
+.successIcon {
+  font-size: 36px;
+  color: #C9A84C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.successTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #F5F0E8;
+  margin: 0;
+}
+
+.successSub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #6A6258;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+  .section {
+    padding: 72px 0;
+  }
+}

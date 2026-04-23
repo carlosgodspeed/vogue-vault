@@ -1,0 +1,291 @@
+.section {
+  background: #060504;
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  height: 520px;
+  overflow: hidden;
+  margin-bottom: 72px;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  filter: brightness(0.65);
+}
+
+.bannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(6,5,4,0.85) 40%, transparent 100%);
+  display: flex;
+  align-items: center;
+}
+
+.bannerContent {
+  padding: 0 64px;
+  max-width: 560px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.goldLine {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #C9A84C;
+  flex-shrink: 0;
+}
+
+.eyebrowText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  color: #C9A84C;
+}
+
+.bannerTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 5vw, 64px);
+  font-weight: 900;
+  color: #F5F0E8;
+  line-height: 1.05;
+  margin: 0 0 16px;
+}
+
+.bannerTitle em {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.bannerSub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #9A9088;
+  margin: 0 0 32px;
+}
+
+.btnPrimary {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #060504;
+  background: #C9A84C;
+  border: none;
+  padding: 16px 40px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #E5C76A;
+  transform: translateY(-2px);
+}
+
+/* Deals */
+.dealsHeader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 36px;
+}
+
+.dealsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  margin-bottom: 60px;
+}
+
+.dealCard {
+  background: #0D0B09;
+  border: 1px solid #1A1714;
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.dealCard:hover {
+  border-color: rgba(201,168,76,0.3);
+  transform: translateY(-4px);
+}
+
+.dealDiscount {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #C9A84C;
+  line-height: 1;
+}
+
+.dealLabel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #D8D0C4;
+}
+
+.dealDesc {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #6A6258;
+  line-height: 1.5;
+  margin: 0;
+  flex: 1;
+}
+
+.dealCode {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-top: 1px solid #1A1714;
+}
+
+.codeLabel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: #4A4540;
+}
+
+.code {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #C9A84C;
+  background: rgba(201,168,76,0.08);
+  padding: 3px 10px;
+}
+
+.dealBtn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #F5F0E8;
+  background: transparent;
+  border: 1px solid #2A2520;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  align-self: flex-start;
+}
+
+.dealBtn:hover {
+  background: #C9A84C;
+  color: #060504;
+  border-color: #C9A84C;
+}
+
+/* Countdown */
+.countdownBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 48px;
+  border: 1px solid rgba(201,168,76,0.2);
+  background: rgba(201,168,76,0.03);
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.countdownLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.countdownTag {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  color: #C9A84C;
+}
+
+.countdownTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #F5F0E8;
+  margin: 0;
+}
+
+.countdownSub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #6A6258;
+  margin: 0;
+}
+
+.btnOutline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #F5F0E8;
+  background: transparent;
+  border: 1px solid #2A2520;
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.btnOutline:hover {
+  border-color: #C9A84C;
+  color: #C9A84C;
+}
+
+@media (max-width: 900px) {
+  .dealsGrid {
+    grid-template-columns: 1fr;
+  }
+  .banner {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+  .bannerContent {
+    padding: 0 24px;
+  }
+  .countdownBanner {
+    padding: 24px;
+  }
+}
