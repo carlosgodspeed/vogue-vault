@@ -31,7 +31,7 @@
 }
 
 .logo {
-  height: 44px;
+  height: 64px;
   width: auto;
   object-fit: contain;
   filter: brightness(1.1);
@@ -51,7 +51,7 @@
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #B0A898;
+  color: #ffffff;
   background: none;
   border: none;
   cursor: pointer;
@@ -103,8 +103,8 @@
 }
 
 .iconImg {
-  width: 34px;
-  height: 34px;
+  width: 54px;
+  height: 54px;
   object-fit: contain;
 }
 

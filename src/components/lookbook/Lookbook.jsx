@@ -1,8 +1,8 @@
-import modelo1 from "../assets/modelo_1.png";
-import modelo2 from "../assets/modelo_2.png";
-import modelo3 from "../assets/modelo_3.png";
-import roupa1 from "../assets/roupa_1.png";
-import roupa2 from "../assets/roupa_2.png";
+import modelo1 from "../../assets/modelo_1.png";
+import modelo2 from "../../assets/modelo_2.png";
+import modelo3 from "../../assets/modelo_3.png";
+import roupa1 from "../../assets/roupa_1.png";
+import roupa2 from "../../assets/roupa_2.png";
 import styles from "./Lookbook.module.css";
 
 const LOOKS = [

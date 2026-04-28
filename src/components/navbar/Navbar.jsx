@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import logo from "../assets/logo.png";
-import loginIcon from "../assets/Login_user.png";
-import sacola from "../assets/Sacola.png";
+import logo from "../../assets/logo.png";
+import loginIcon from "../../assets/Login_user.png";
+import sacola from "../../assets/Sacola.png";
 import styles from "./Navbar.module.css";
 
 const NAV_LINKS = ["Início", "Coleções", "Promoções", "Contato"];

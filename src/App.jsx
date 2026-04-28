@@ -1,11 +1,11 @@
 import { useState } from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Colecoes from "./components/Colecoes";
-import Lookbook from "./components/Lookbook";
-import Promocoes from "./components/Promocoes";
-import Contato from "./components/Contato";
-import Footer from "./components/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
+import Colecoes from "./components/colecoes/Colecoes";
+import Lookbook from "./components/lookbook/Lookbook";
+import Promocoes from "./components/Promocoes/Promocoes";
+import Contato from "./components/contato/Contato";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 
 export default function App() {

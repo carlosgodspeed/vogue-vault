@@ -1,7 +1,7 @@
 import { useState } from "react";
-import col1 from "../assets/coleção_1.png";
-import col2 from "../assets/coleção_2.png";
-import col3 from "../assets/coleção_3.png";
+import col1 from "../../assets/coleção_1.png";
+import col2 from "../../assets/coleção_2.png";
+import col3 from "../../assets/coleção_3.png";
 import styles from "./Colecoes.module.css";
 
 const COLLECTIONS = [
@@ -49,7 +49,10 @@ export default function Colecoes() {
             Universos de<br /><em>Alta Moda</em>
           </h2>
         </div>
-        <button className={styles.btnOutline}>Ver Todas →</button>
+        // criar uma rota de mostruario omostrando todas as coleções
+        <button className={styles.btnOutline} onClick={() => onNavigate("Coleções")}>
+          Ver Todas →
+        </button>
       </div>
 
       <div className={styles.grid}>

@@ -1,4 +1,4 @@
-import promocaoImg from "../assets/vogue_vault_promoção.png";
+import promocaoImg from "../../assets/vogue_vault_promoção.png";
 import styles from "./Promocoes.module.css";
 
 const DEALS = [

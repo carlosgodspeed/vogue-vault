@@ -1,4 +1,4 @@
-import modelo3 from "../assets/modelo_3.png";
+import modelo3 from "../../assets/modelo_3.png";
 import styles from "./Hero.module.css";
 
 export default function Hero({ onNavigate }) {
@@ -47,11 +47,6 @@ export default function Hero({ onNavigate }) {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className={styles.scrollHint}>
-        <span className={styles.scrollText}>ROLAR</span>
-        <div className={styles.scrollLine} />
       </div>
     </section>
   );
