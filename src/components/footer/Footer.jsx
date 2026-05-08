@@ -8,7 +8,7 @@ const FOOTER_COLS = [
   },
   {
     title: "Vault",
-    links: ["Acesso Membro", "Lookbook", "Tendências", "Arquivo", "Parcerias"],
+    links: ["Acesso Membro", "Lookbook", "Tendências", "Novas Peças", "Parcerias"],
   },
   {
     title: "Atendimento",
@@ -42,7 +42,7 @@ export default function Footer({ onNavigate }) {
                     <button
                       className={styles.colLink}
                       onClick={() => {
-                        const pages = ["Início", "Coleções", "Promoções", "Contato"];
+                        const pages = ["Início", "Coleções", "Promoções", "Contato","Lookbook"];
                         if (pages.includes(link)) onNavigate(link);
                       }}
                     >

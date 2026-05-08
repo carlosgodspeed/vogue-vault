@@ -24,15 +24,15 @@
   display: block;
   width: 40px;
   height: 1px;
-  background: #C9A84C;
+  background: #f9c22a;
 }
 
 .eyebrowText {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.22em;
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 .title {
@@ -45,7 +45,7 @@
 }
 
 .title em {
-  color: #C9A84C;
+  color: #f9c22a;
   font-style: italic;
 }
 
@@ -53,7 +53,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 17px;
   font-style: italic;
-  color: #6A6258;
+  color: #ffffff;
   line-height: 1.7;
   margin: 0 0 40px;
 }
@@ -78,13 +78,13 @@
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.25em;
-  color: #4A4540;
+  color: #ffffff;
 }
 
 .infoValue {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
-  color: #B0A898;
+  color: #f9c22a;
 }
 
 .socialRow {
@@ -96,14 +96,14 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   letter-spacing: 0.18em;
-  color: #4A4540;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s;
   text-transform: uppercase;
 }
 
 .socialLink:hover {
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 /* Form */
@@ -125,14 +125,14 @@
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #5A5248;
+  color: #ffffff;
 }
 
 .input,
 .textarea {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
-  color: #D8D0C4;
+  color: #fafafa;
   background: #0D0B09;
   border: 1px solid #1A1714;
   padding: 14px 18px;
@@ -144,12 +144,12 @@
 
 .input::placeholder,
 .textarea::placeholder {
-  color: #3A3530;
+  color: #ffffff;
 }
 
 .input:focus,
 .textarea:focus {
-  border-color: rgba(201,168,76,0.4);
+  border-color: rgba(249, 194, 42, 0.4);
 }
 
 .btnSubmit {
@@ -158,8 +158,8 @@
   font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #060504;
-  background: #C9A84C;
+  color: #000000;
+  background: #f9c22a;
   border: none;
   padding: 18px 40px;
   cursor: pointer;
@@ -187,7 +187,7 @@
 
 .successIcon {
   font-size: 36px;
-  color: #C9A84C;
+  color: #f9c22a;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
@@ -204,7 +204,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
   font-style: italic;
-  color: #6A6258;
+  color: #f9c22a;
   margin: 0;
 }
 

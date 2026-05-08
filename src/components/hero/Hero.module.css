@@ -84,16 +84,16 @@
   flex: 1;
   max-width: 48px;
   height: 1px;
-  background: #C9A84C;
+  background: #f9c22a;
   display: block;
 }
 
 .tagText {
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.32em;
-  color: #C9A84C;
+  color: #f9c22a;
   white-space: nowrap;
 }
 
@@ -123,7 +123,7 @@
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: #0A0806;
-  background: #C9A84C;
+  background: #f9c22a;
   border: none;
   padding: 15px 36px;
   cursor: pointer;
@@ -143,14 +143,14 @@
   text-transform: uppercase;
   color: #F5F0E8;
   background: transparent;
-  border: 1px solid #2A2520;
+  border: 1px solid #565452;
   padding: 15px 36px;
   cursor: pointer;
   transition: border-color 0.3s, color 0.3s;
 }
 
 .btnOutline:hover {
-  border-color: #C9A84C;
+  border-color: #f9c22a;
   color: #C9A84C;
 }
 
@@ -170,7 +170,7 @@
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   font-weight: 900;
-  color: #C9A84C;
+  color: #f9c22a;
   line-height: 1;
 }
 
@@ -200,13 +200,6 @@
   font-size: 9px;
   letter-spacing: 0.25em;
   color: #6A6258;
-}
-
-.scrollLine {
-  width: 1px;
-  height: 44px;
-  background: linear-gradient(to bottom, #C9A84C, transparent);
-  animation: scrollPulse 2s ease infinite;
 }
 
 @keyframes fadeUp {

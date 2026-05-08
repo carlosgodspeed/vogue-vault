@@ -32,8 +32,6 @@ export default function App() {
         return (
           <div className="page-wrapper">
             <Colecoes />
-            <div className="section-divider" />
-            <Lookbook />
           </div>
         );
       case "Promoções":
@@ -48,7 +46,12 @@ export default function App() {
             <Contato />
           </div>
         );
-      default:
+      case "Lookbook":
+        return (
+          <div className="page-wrapper">
+            <Lookbook />
+          </div>
+        );
         return null;
     }
   };

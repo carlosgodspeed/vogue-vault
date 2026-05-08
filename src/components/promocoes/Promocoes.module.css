@@ -23,13 +23,12 @@
   object-fit: cover;
   object-position: center top;
   display: block;
-  filter: brightness(0.65);
+  filter: brightness(0.85);
 }
 
 .bannerOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, rgba(6,5,4,0.85) 40%, transparent 100%);
   display: flex;
   align-items: center;
 }
@@ -50,16 +49,16 @@
   display: block;
   width: 40px;
   height: 1px;
-  background: #C9A84C;
+  background: #f9c22a;
   flex-shrink: 0;
 }
 
 .eyebrowText {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.22em;
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 .bannerTitle {
@@ -72,7 +71,7 @@
 }
 
 .bannerTitle em {
-  color: #C9A84C;
+  color: #f9c22a;
   font-style: italic;
 }
 
@@ -80,7 +79,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
   font-style: italic;
-  color: #9A9088;
+  color: #ffffff;
   margin: 0 0 32px;
 }
 
@@ -91,7 +90,7 @@
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: #060504;
-  background: #C9A84C;
+  background: #f9c22a;
   border: none;
   padding: 16px 40px;
   cursor: pointer;

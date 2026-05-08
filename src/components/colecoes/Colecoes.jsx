@@ -49,10 +49,6 @@ export default function Colecoes() {
             Universos de<br /><em>Alta Moda</em>
           </h2>
         </div>
-        // criar uma rota de mostruario omostrando todas as coleções
-        <button className={styles.btnOutline} onClick={() => onNavigate("Coleções")}>
-          Ver Todas →
-        </button>
       </div>
 
       <div className={styles.grid}>
@@ -76,10 +72,6 @@ export default function Colecoes() {
                 <span className={styles.season}>{col.season}</span>
                 <h3 className={styles.cardName}>{col.name}</h3>
                 <p className={styles.cardDesc}>{col.desc}</p>
-                <div className={styles.cardFooter}>
-                  <span className={styles.pieces}>{col.pieces} PEÇAS</span>
-                  <span className={styles.arrow}>→</span>
-                </div>
               </div>
             </div>
           </div>

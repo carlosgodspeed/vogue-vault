@@ -37,9 +37,9 @@ export default function Hero({ onNavigate }) {
 
         <div className={styles.stats}>
           {[
-            { num: "312+", label: "Peças Exclusivas" },
-            { num: "48", label: "Designers" },
-            { num: "40%", label: "Black Friday Off" },
+            { num: "100+", label: "Peças Exclusivas" },
+            { num: "20+", label: "Coleções" },
+            { num: "40%", label: "Desconto" },
           ].map((s) => (
             <div key={s.label} className={styles.stat}>
               <span className={styles.statNum}>{s.num}</span>

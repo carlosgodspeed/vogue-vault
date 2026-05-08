@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import logo from "../../assets/logo.png";
-import loginIcon from "../../assets/Login_user.png";
-import sacola from "../../assets/Sacola.png";
 import styles from "./Navbar.module.css";
 
-const NAV_LINKS = ["Início", "Coleções", "Promoções", "Contato"];
+const NAV_LINKS = ["Início", "Coleções", "Promoções","Contato"];
 
 export default function Navbar({ currentPage, onNavigate }) {
   const [scrolled, setScrolled] = useState(false);
@@ -37,12 +35,6 @@ export default function Navbar({ currentPage, onNavigate }) {
         </ul>
 
         <div className={styles.navActions}>
-          <button className={styles.iconBtn} title="Conta">
-            <img src={loginIcon} alt="Login" className={styles.iconImg} />
-          </button>
-          <button className={styles.iconBtn} title="Sacola">
-            <img src={sacola} alt="Sacola" className={styles.iconImg} />
-          </button>
           <button
             className={styles.hamburger}
             onClick={() => setMenuOpen(!menuOpen)}

@@ -24,7 +24,7 @@
 }
 
 .logo {
-  height: 40px;
+  height: 60px;
   width: auto;
   object-fit: contain;
   object-position: left;
@@ -33,9 +33,9 @@
 
 .tagline {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: italic;
-  color: #4A4540;
+  color: #ffffff;
   line-height: 1.7;
   margin: 0;
   max-width: 280px;
@@ -51,7 +51,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   letter-spacing: 0.16em;
-  color: #3A3530;
+  color: #f9c22a;
   text-decoration: none;
   text-transform: uppercase;
   transition: color 0.3s;
@@ -69,10 +69,10 @@
 
 .colTitle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.25em;
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 .colLinks {
@@ -88,7 +88,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
   letter-spacing: 0.12em;
-  color: #3A3530;
+  color: #ffffff;
   background: none;
   border: none;
   cursor: pointer;
@@ -99,7 +99,7 @@
 }
 
 .colLink:hover {
-  color: #B0A898;
+  color: #f9c22a;
 }
 
 .divider {
@@ -118,9 +118,9 @@
 
 .copy {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
-  color: #2A2520;
+  color: #f9c22a;
 }
 
 .bottomLinks {
@@ -130,15 +130,15 @@
 
 .bottomLink {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
-  color: #2A2520;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .bottomLink:hover {
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 @media (max-width: 1024px) {

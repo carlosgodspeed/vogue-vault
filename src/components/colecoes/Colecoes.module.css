@@ -27,15 +27,15 @@
   display: block;
   width: 40px;
   height: 1px;
-  background: #C9A84C;
+  background: #f9c22a;
 }
 
 .eyebrowText {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.22em;
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 .title {
@@ -48,7 +48,7 @@
 
 .title em {
   font-style: italic;
-  color: #C9A84C;
+  color: #f9c22a;
 }
 
 .btnOutline {
@@ -67,8 +67,8 @@
 }
 
 .btnOutline:hover {
-  border-color: #C9A84C;
-  color: #C9A84C;
+  border-color: #f9c22a;
+  color: #f9c22a;
 }
 
 .grid {
@@ -120,8 +120,8 @@
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.2em;
-  color: #C9A84C;
-  border: 1px solid #C9A84C;
+  color: #f9c22a;
+  border: 1px solid #f9c22a;
   padding: 4px 10px;
   background: rgba(6,5,4,0.6);
 }
@@ -137,7 +137,7 @@
 .season {
   display: block;
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.2em;
   color: #ffffff;
@@ -148,35 +148,17 @@
   font-family: 'Playfair Display', serif;
   font-size: 26px;
   font-weight: 700;
-  color: #C9A84C;
+  color: #f9c22a;
   margin: 0 0 8px;
 }
 
 .cardDesc {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 14px;
+  font-size: 17px;
   font-style: italic;
   color: #ffffff;
   line-height: 1.55;
   margin: 0 0 16px;
-}
-
-.cardFooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pieces {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 9px;
-  letter-spacing: 0.18em;
-  color: #ffffff;
-}
-
-.arrow {
-  color: #C9A84C;
-  font-size: 18px;
 }
 
 @media (max-width: 900px) {
